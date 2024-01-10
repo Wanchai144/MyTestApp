@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/bottom_menu_padding_side"
+    android:paddingTop="@dimen/bottom_menu_padding"
+    android:paddingEnd="@dimen/bottom_menu_padding_side"
+    android:paddingBottom="@dimen/bottom_menu_padding">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btnBottomMenuHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btnBottomMenuDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivBottomMenuHome"
+            android:layout_width="@dimen/bottom_menu_icon_size"
+            android:layout_height="@dimen/bottom_menu_icon_size"
+            android:src="@drawable/ic_baseline_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBottomMenuHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bottom_menu_home"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/ivBottomMenuHome"
+            app:layout_constraintStart_toStartOf="@+id/ivBottomMenuHome"
+            app:layout_constraintTop_toBottomOf="@+id/ivBottomMenuHome" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btnBottomMenuDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btnBottomMenuPoint"
+        app:layout_constraintStart_toEndOf="@+id/btnBottomMenuHome"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivBottomMenuDetail"
+            android:layout_width="@dimen/bottom_menu_icon_size"
+            android:layout_height="@dimen/bottom_menu_icon_size"
+            android:src="@drawable/ic_baseline_list_alt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBottomMenuDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bottom_menu_detail"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/ivBottomMenuDetail"
+            app:layout_constraintStart_toStartOf="@+id/ivBottomMenuDetail"
+            app:layout_constraintTop_toBottomOf="@+id/ivBottomMenuDetail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btnBottomMenuPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnBottomMenuDetail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="18dp">
+
+        <ImageView
+            android:id="@+id/ivBottomMenuPoint"
+            android:layout_width="@dimen/bottom_menu_icon_size"
+            android:layout_height="@dimen/bottom_menu_icon_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBottomMenuPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bottom_menu_point"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/btnBottomMenuPoint"
+            app:layout_constraintStart_toStartOf="@+id/btnBottomMenuPoint"
+            app:layout_constraintTop_toBottomOf="@+id/ivBottomMenuPoint"  />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/btnBottomMenuPoint"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/btnBottomMenuDetail"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivBottomMenuPoint"-->
+<!--            android:layout_width="@dimen/bottom_menu_icon_size"-->
+<!--            android:layout_height="@dimen/bottom_menu_icon_size"-->
+<!--            android:src="@drawable/ic_baseline_list_alt"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBottomMenuPoint"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/bottom_menu_point"-->
+<!--            android:textColor="@color/white"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/btnBottomMenuPoint"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/btnBottomMenuPoint"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/btnBottomMenuPoint" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

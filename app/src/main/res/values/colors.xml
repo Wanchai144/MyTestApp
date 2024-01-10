@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Color -->
+    <color name="cool_red">#F44336</color>
+    <color name="cool_textRed_Live">#ED3E4B</color>
+    <color name="cool_white">@color/white</color>
+    <color name="cool_grey">#939598</color>
+    <color name="cool_grey_middle">#A9A9A9</color>
+    <color name="cool_light_grey">#F3F3F3</color>
+    <color name="cool_green">#79C80E</color>
+    <color name="cool_dark_green">#1FA01F</color>
+    <color name="cool_pink_light">#F9F7F7</color>
+    <color name="cool_pink_medium">#F4EFEF</color>
+    <color name="cool_pink_dark">#E1DADA</color>
+    <color name="cool_black_medium">#2C2C2C</color>
+    <color name="cool_lightest_grey">#80FFFFFF</color>
+    <color name="cool_dark_grey">#444547</color>
+    <color name="cool_blue">#1877F2</color>
+    <color name="cool_background">#FAFAFA</color>
+
+
+    <color name="activeButton">#e23425</color>
+    <color name="inactiveButton">#50e23425</color>
+    <!-- Custom Color-->
+    <color name="bg_card_view">#66EFEBEB</color>
+    <color name="button_inactive">#A9A9A9</color>
+
+    <!-- Cool Input -->
+    <color name="cool_input_bg">#CCFFFFFF</color>
+    <color name="cool_input_bg_grey">#CCF3F3F3</color>
+    <color name="cool_input_bg_error">#CCFFE9E9</color>
+    <color name="cool_input_bg_border_error">#F44336</color>
+    <color name="cool_input_text_hint_color">#A0A0A0</color>
+    <color name="cool_input_ic_password_normal">#B7B7B7</color>
+    <color name="cool_input_ic_password_error">@color/cool_red</color>
+
+    <!-- Cool EditText -->
+    <color name="cool_edit_text_line_normal">#C5C5C5</color>
+    <color name="cool_edit_text_line_error">#FF4600</color>
+    <color name="cool_edit_text_text_normal">@color/cool_black_medium</color>
+    <color name="cool_edit_text_text_error">@color/cool_red</color>
+    <color name="cool_edit_text_hint">#A9A9A9</color>
+    <color name="cool_edit_text_ic_password_normal">#B7B7B7</color>
+    <color name="cool_edit_text_ic_password_error">@color/cool_red</color>
+
+</resources>
